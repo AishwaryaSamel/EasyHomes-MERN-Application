@@ -10,7 +10,7 @@ import cors from 'cors';
 const app = express();
 
 //cloud connect to mongo db
-mongoose.connect("mongodb+srv://admin:admin@cluster0.lvmbi.mongodb.net/homeSearch?authSource=admin&replicaSet=atlas-8zorfc-shard-0&readPreference=primary&appname=MongoDB%20Compass&ssl=true", {
+mongoose.connect("yoururl", {
     keepAlive: true,
     useNewUrlParser: true,
     useUnifiedTopology: true,
